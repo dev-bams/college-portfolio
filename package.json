@@ -1,9 +1,14 @@
 {
-  "name": "comp229-f2020-week3",
-  "version": "0.0.1",
+  "name": "my-webpack-project",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./server.js"
+    "start": "node ./server.js",
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
+    "serve": "webpack serve"
   },
   "engines": {
     "node": "^12.18.3",
@@ -21,9 +26,18 @@
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
   },
-  "description": "demo app for COMP229 Week 3",
+  "description": "My webpack project",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "@webpack-cli/generators": "^3.0.7",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "workbox-webpack-plugin": "^7.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tsiliopoulos/COMP229-F2020-Week3.git"
