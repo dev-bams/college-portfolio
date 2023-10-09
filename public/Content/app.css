@@ -360,7 +360,6 @@ main {
   align-items: center;
   flex-direction: column;
   margin: 0 auto;
-  background-color: #000814;
   position: relative;
 }
 .about-me-section {
@@ -371,9 +370,8 @@ main {
   flex-direction: column;
   padding: 2rem 1.5rem;
   margin: auto;
-  background-color: #000814;
   max-width: 1300px;
-  color: white;
+  color: 000814;
   gap: 2rem;
 }
 .paragraph-about-me-container {
@@ -693,7 +691,6 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #000814;
 }
 .services-section {
   width: 85%;
@@ -703,13 +700,12 @@ main {
   flex-direction: column;
   padding: 2rem 1.5rem;
   margin: auto;
-  background-color: #000814;
   max-width: 1300px;
-  color: #ffff;
+  color: #000814;
   gap: 2rem;
 }
 .services-section h2 {
-  color: #ffff;
+  color: #000814;
 }
 
 .left-services,
